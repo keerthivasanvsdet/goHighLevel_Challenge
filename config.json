@@ -1,0 +1,21 @@
+{
+    "Name": "gohighlevel",
+    "Author": "Keerthivasan",
+    "URL": "http://app.gohighlevel.com/",
+    "CalendarURL": "https://app.gohighlevel.com/v2/location/TzVEpIbhbYTTxWBCiPIR/settings/calendars/",
+    "AppointmentURL": "https://link.gohighlevel.com/widget/appointment/service/testtest2?group=teamtest008",
+    "AppointmentsListURL": "https://app.gohighlevel.com/v2/location/TzVEpIbhbYTTxWBCiPIR/calendars/appointments",
+    "Company List": [
+        "Company: eBay",
+        "Company: Paypal",
+        "Company: Google"
+    ],
+    "LogInPageText": "Sign into your account",
+    "Email": "keerthi.balaji812@gmail.com",
+    "Password": "Test123!",
+    "FirstName": "TestFirst",
+    "LastName": "TestLast",
+    "PhoneNumber": "1234567890",
+    "TestEmail": "test@test.com",
+    "AddInfo": "TestBooking"
+}

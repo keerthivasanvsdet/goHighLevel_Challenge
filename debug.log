@@ -1,0 +1,247 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:57363,suspend=y,server=n -javaagent:/Users/keerthivasanv/Library/Caches/JetBrains/IdeaIC2021.2/captureAgent/debugger-agent.jar -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar:/Users/keerthivasanv/Downloads/gohighlevel/target/classes:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/keerthivasanv/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/keerthivasanv/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/keerthivasanv/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/keerthivasanv/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/keerthivasanv/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/keerthivasanv/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/keerthivasanv/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/keerthivasanv/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/keerthivasanv/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/keerthivasanv/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/keerthivasanv/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/keerthivasanv/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/keerthivasanv/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/keerthivasanv/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar:/Users/keerthivasanv/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/keerthivasanv/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/keerthivasanv/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/keerthivasanv/.m2/repository/com/github/docker-java/docker-java/3.2.12/docker-java-3.2.12.jar:/Users/keerthivasanv/.m2/repository/com/github/docker-java/docker-java-core/3.2.12/docker-java-core-3.2.12.jar:/Users/keerthivasanv/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/Users/keerthivasanv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/keerthivasanv/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/keerthivasanv/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/keerthivasanv/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/keerthivasanv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/keerthivasanv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/keerthivasanv/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/keerthivasanv/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/keerthivasanv/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/keerthivasanv/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.12/docker-java-transport-httpclient5-3.2.12.jar:/Users/keerthivasanv/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/Users/keerthivasanv/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/keerthivasanv/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/keerthivasanv/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/keerthivasanv/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/keerthivasanv/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/keerthivasanv/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/keerthivasanv/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/keerthivasanv/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/keerthivasanv/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/keerthivasanv/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/keerthivasanv/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/keerthivasanv/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/keerthivasanv/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/keerthivasanv/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/keerthivasanv/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar:/Users/keerthivasanv/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar:/Users/keerthivasanv/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/keerthivasanv/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/keerthivasanv/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/keerthivasanv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/keerthivasanv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/keerthivasanv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/keerthivasanv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/keerthivasanv/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/keerthivasanv/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/keerthivasanv/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/keerthivasanv/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/keerthivasanv/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/keerthivasanv/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/keerthivasanv/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/keerthivasanv/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/keerthivasanv/.m2/repository/io/rest-assured/json-schema-validator/5.2.0/json-schema-validator-5.2.0.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/keerthivasanv/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/keerthivasanv/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/keerthivasanv/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/keerthivasanv/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/keerthivasanv/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/keerthivasanv/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/keerthivasanv/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar ui_tests.GoHighLevelCalendarTest
+Connected to the target VM, address: '127.0.0.1:57363', transport: 'socket'
+2022-12-12 19:21:22,035 main DEBUG Initializing configuration XmlConfiguration[location=/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml]
+2022-12-12 19:21:22,045 main DEBUG Installed script engines
+2022-12-12 19:21:22,488 main DEBUG Oracle Nashorn Version: 1.8.0_261, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+2022-12-12 19:21:22,489 main DEBUG PluginManager 'Core' found 112 plugins
+2022-12-12 19:21:22,489 main DEBUG PluginManager 'Level' found 0 plugins
+2022-12-12 19:21:22,496 main DEBUG PluginManager 'Lookup' found 13 plugins
+2022-12-12 19:21:22,499 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-12-12 19:21:22,510 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2022-12-12 19:21:22,526 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t]    %c{1} %logger{36} - %msg%n", PatternSelector=null, Configuration(/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2022-12-12 19:21:22,526 main DEBUG PluginManager 'Converter' found 41 plugins
+2022-12-12 19:21:22,542 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2022-12-12 19:21:22,553 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t]    %c{1} %logger{36} - %msg%n), name="Console", Configuration(/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml), Filter=null)
+2022-12-12 19:21:22,553 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2022-12-12 19:21:22,554 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2022-12-12 19:21:22,554 main DEBUG createAppenders(={Console})
+2022-12-12 19:21:22,555 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-12-12 19:21:22,559 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2022-12-12 19:21:22,560 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2022-12-12 19:21:22,561 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={Console}, ={}, Configuration(/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml), Filter=null)
+2022-12-12 19:21:22,564 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2022-12-12 19:21:22,565 main DEBUG createLoggers(={root})
+2022-12-12 19:21:22,566 main DEBUG Configuration XmlConfiguration[location=/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml] initialized
+2022-12-12 19:21:22,566 main DEBUG Starting configuration XmlConfiguration[location=/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml]
+2022-12-12 19:21:22,566 main DEBUG Started configuration XmlConfiguration[location=/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml] OK.
+2022-12-12 19:21:22,567 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2022-12-12 19:21:22,567 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2022-12-12 19:21:22,567 main DEBUG Appender DefaultConsole-1 stopped with status true
+2022-12-12 19:21:22,568 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@7c29daf3 OK
+2022-12-12 19:21:22,645 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2
+2022-12-12 19:21:22,648 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=StatusLogger
+2022-12-12 19:21:22,649 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=ContextSelector
+2022-12-12 19:21:22,651 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=
+2022-12-12 19:21:22,653 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=Console
+2022-12-12 19:21:22,655 main DEBUG Reconfiguration complete for context[name=18b4aac2] at URI /Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@5629510) with optional ClassLoader: null
+2022-12-12 19:21:22,655 main DEBUG Shutdown hook enabled. Registering a new one.
+2022-12-12 19:21:22,656 main DEBUG LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@5629510] started OK.
+19:21:22.678 [main] INFO  2022-12-12 19:21:22.678 [main]    Common pages.Common - Read all data from config.json & locators.json
+19:21:22.679 [main] INFO  2022-12-12 19:21:22.679 [main]    Common pages.Common - *******************************************
+19:21:22.679 [main] INFO  2022-12-12 19:21:22.679 [main]    Common pages.Common -
+19:21:22.679 [main] INFO  2022-12-12 19:21:22.679 [main]    Common pages.Common - Executing Scenario: GoHighLevelCalendarTest --> Calendar Scenarios
+19:21:22.680 [main] INFO  2022-12-12 19:21:22.680 [main]    Common pages.Common -
+19:21:22.680 [main] INFO  2022-12-12 19:21:22.680 [main]    Common pages.Common - *******************************************
+19:21:22.680 [main] INFO  2022-12-12 19:21:22.680 [main]    Common pages.Common - Product: gohighlevel
+19:21:22.680 [main] INFO  2022-12-12 19:21:22.680 [main]    Common pages.Common - Author: Keerthivasan
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 50737
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 12, 2022 7:21:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 12, 2022 7:21:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: a no-op implementation
+Dec 12, 2022 7:21:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 108.
+Dec 12, 2022 7:21:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+19:21:26.339 [main] INFO  2022-12-12 19:21:26.339 [main]    Common pages.Common - Launched Chrome Driver
+19:21:26.353 [main] INFO  2022-12-12 19:21:26.353 [main]    Common pages.Common - Have set implicit timeout of 20 Seconds
+19:21:31.441 [main] INFO  2022-12-12 19:21:31.441 [main]    Common pages.Common - Loading the Page: http://app.gohighlevel.com/
+19:21:31.445 [main] INFO  2022-12-12 19:21:31.445 [main]    Common pages.Common - Have set implicit timeout of 30 Seconds
+19:21:31.477 [main] INFO  2022-12-12 19:21:31.477 [main]    Common pages.Common - Login Page is Displayed
+19:21:31.809 [main] INFO  2022-12-12 19:21:31.809 [main]    Common pages.Common - Clicked Sign in button in Login Page
+19:21:32.620 [main] INFO  2022-12-12 19:21:32.620 [main]    Common pages.Common - Clicked Send Security Code
+19:22:03.890 [main] INFO  2022-12-12 19:22:03.890 [main]    Common pages.Common - Dashboard Landing Page is Displayed
+19:22:05.067 [main] INFO  2022-12-12 19:22:05.067 [main]    Common pages.Common - Clicked Calendars Menu Option in Dashboard Landing Page
+19:22:05.102 [main] INFO  2022-12-12 19:22:05.102 [main]    Common pages.Common - Calendar's Page is Displayed
+19:22:06.417 [main] INFO  2022-12-12 19:22:06.417 [main]    Common pages.Common - Loading the Page: https://app.gohighlevel.com/v2/location/TzVEpIbhbYTTxWBCiPIR/settings/calendars/
+19:22:17.439 [main] INFO  2022-12-12 19:22:17.439 [main]    Common pages.Common - Appointment Page is Displayed
+19:22:19.125 [main] INFO  2022-12-12 19:22:19.125 [main]    Common pages.Common - Loading the Page: https://link.gohighlevel.com/widget/appointment/service/testtest2?group=teamtest008
+19:22:19.158 [main] INFO  2022-12-12 19:22:19.158 [main]    Common pages.Common - Time Zone Options Count: 108
+19:22:19.180 [main] INFO  2022-12-12 19:22:19.180 [main]    Common pages.Common - Drop Down Option Text: 0 GMT-12:00 Etc/GMT+12 (GMT-12)
+19:22:19.202 [main] INFO  2022-12-12 19:22:19.202 [main]    Common pages.Common - Drop Down Option Text: 1 GMT-11:00 Pacific/Midway (GMT-11)
+19:22:19.214 [main] INFO  2022-12-12 19:22:19.214 [main]    Common pages.Common - Drop Down Option Text: 2 GMT-10:00 Pacific/Honolulu (HST)
+19:22:19.227 [main] INFO  2022-12-12 19:22:19.227 [main]    Common pages.Common - Drop Down Option Text: 3 GMT-09:00 America/Juneau (AKST)
+19:22:19.239 [main] INFO  2022-12-12 19:22:19.239 [main]    Common pages.Common - Drop Down Option Text: 4 GMT-09:00 US/Alaska (AKST)
+19:22:19.252 [main] INFO  2022-12-12 19:22:19.252 [main]    Common pages.Common - Drop Down Option Text: 5 GMT-08:00 America/Los_Angeles (PST)
+19:22:19.264 [main] INFO  2022-12-12 19:22:19.264 [main]    Common pages.Common - Drop Down Option Text: 6 GMT-08:00 America/Tijuana (PST)
+19:22:19.275 [main] INFO  2022-12-12 19:22:19.275 [main]    Common pages.Common - Drop Down Option Text: 7 GMT-07:00 America/Dawson (GMT-7)
+19:22:19.288 [main] INFO  2022-12-12 19:22:19.288 [main]    Common pages.Common - Drop Down Option Text: 8 GMT-07:00 America/Phoenix (MST)
+19:22:19.300 [main] INFO  2022-12-12 19:22:19.300 [main]    Common pages.Common - Drop Down Option Text: 9 GMT-07:00 US/Arizona (MST)
+19:22:19.311 [main] INFO  2022-12-12 19:22:19.311 [main]    Common pages.Common - Drop Down Option Text: 10 GMT-07:00 America/Boise (MST)
+19:22:19.324 [main] INFO  2022-12-12 19:22:19.324 [main]    Common pages.Common - Drop Down Option Text: 11 GMT-07:00 America/Chihuahua (GMT-7)
+19:22:19.336 [main] INFO  2022-12-12 19:22:19.336 [main]    Common pages.Common - Drop Down Option Text: 12 GMT-07:00 America/Denver (MST)
+19:22:19.349 [main] INFO  2022-12-12 19:22:19.349 [main]    Common pages.Common - Drop Down Option Text: 13 GMT-07:00 America/Edmonton (MST)
+19:22:19.362 [main] INFO  2022-12-12 19:22:19.362 [main]    Common pages.Common - Drop Down Option Text: 14 GMT-07:00 US/Mountain (MST)
+19:22:19.375 [main] INFO  2022-12-12 19:22:19.375 [main]    Common pages.Common - Drop Down Option Text: 15 GMT-06:00 America/Belize (CST)
+19:22:19.388 [main] INFO  2022-12-12 19:22:19.388 [main]    Common pages.Common - Drop Down Option Text: 16 GMT-06:00 America/Guatemala (CST)
+19:22:19.402 [main] INFO  2022-12-12 19:22:19.402 [main]    Common pages.Common - Drop Down Option Text: 17 GMT-06:00 America/Managua (CST)
+19:22:19.414 [main] INFO  2022-12-12 19:22:19.414 [main]    Common pages.Common - Drop Down Option Text: 18 GMT-06:00 America/Regina (CST)
+19:22:19.426 [main] INFO  2022-12-12 19:22:19.426 [main]    Common pages.Common - Drop Down Option Text: 19 GMT-06:00 Canada/Saskatchewan (CST)
+19:22:19.438 [main] INFO  2022-12-12 19:22:19.438 [main]    Common pages.Common - Drop Down Option Text: 20 GMT-06:00 America/Bahia_Banderas (CST)
+19:22:19.450 [main] INFO  2022-12-12 19:22:19.450 [main]    Common pages.Common - Drop Down Option Text: 21 GMT-06:00 America/Chicago (CST)
+19:22:19.462 [main] INFO  2022-12-12 19:22:19.462 [main]    Common pages.Common - Drop Down Option Text: 22 GMT-06:00 America/Mexico_City (CST)
+19:22:19.474 [main] INFO  2022-12-12 19:22:19.474 [main]    Common pages.Common - Drop Down Option Text: 23 GMT-06:00 US/Central (CST)
+19:22:19.487 [main] INFO  2022-12-12 19:22:19.487 [main]    Common pages.Common - Drop Down Option Text: 24 GMT-05:00 America/Bogota (GMT-5)
+19:22:19.521 [main] INFO  2022-12-12 19:22:19.521 [main]    Common pages.Common - Drop Down Option Text: 25 GMT-05:00 America/Cancun (EST)
+19:22:19.532 [main] INFO  2022-12-12 19:22:19.532 [main]    Common pages.Common - Drop Down Option Text: 26 GMT-05:00 America/Detroit (EST)
+19:22:19.542 [main] INFO  2022-12-12 19:22:19.542 [main]    Common pages.Common - Drop Down Option Text: 27 GMT-05:00 America/Indiana/Indianapolis (EST)
+19:22:19.554 [main] INFO  2022-12-12 19:22:19.554 [main]    Common pages.Common - Drop Down Option Text: 28 GMT-05:00 America/Louisville (EST)
+19:22:19.564 [main] INFO  2022-12-12 19:22:19.564 [main]    Common pages.Common - Drop Down Option Text: 29 GMT-05:00 America/New_York (EST)
+19:22:19.575 [main] INFO  2022-12-12 19:22:19.575 [main]    Common pages.Common - Drop Down Option Text: 30 GMT-05:00 America/Toronto (EST)
+19:22:19.586 [main] INFO  2022-12-12 19:22:19.586 [main]    Common pages.Common - Drop Down Option Text: 31 GMT-05:00 US/East-Indiana (EST)
+19:22:19.596 [main] INFO  2022-12-12 19:22:19.596 [main]    Common pages.Common - Drop Down Option Text: 32 GMT-05:00 US/Eastern (EST)
+19:22:19.607 [main] INFO  2022-12-12 19:22:19.607 [main]    Common pages.Common - Drop Down Option Text: 33 GMT-04:00 America/Caracas (GMT-4)
+19:22:19.619 [main] INFO  2022-12-12 19:22:19.619 [main]    Common pages.Common - Drop Down Option Text: 34 GMT-04:00 America/Manaus (GMT-4)
+19:22:19.630 [main] INFO  2022-12-12 19:22:19.630 [main]    Common pages.Common - Drop Down Option Text: 35 GMT-04:00 America/Santo_Domingo (AST)
+19:22:19.641 [main] INFO  2022-12-12 19:22:19.641 [main]    Common pages.Common - Drop Down Option Text: 36 GMT-04:00 America/Glace_Bay (AST)
+19:22:19.654 [main] INFO  2022-12-12 19:22:19.654 [main]    Common pages.Common - Drop Down Option Text: 37 GMT-04:00 Canada/Atlantic (AST)
+19:22:19.666 [main] INFO  2022-12-12 19:22:19.666 [main]    Common pages.Common - Drop Down Option Text: 38 GMT-03:30 America/St_Johns (GMT-3:30)
+19:22:19.730 [main] INFO  2022-12-12 19:22:19.730 [main]    Common pages.Common - Drop Down Option Text: 39 GMT-03:30 Canada/Newfoundland (GMT-3:30)
+19:22:19.742 [main] INFO  2022-12-12 19:22:19.742 [main]    Common pages.Common - Drop Down Option Text: 40 GMT-03:00 America/Santiago (GMT-3)
+19:22:19.754 [main] INFO  2022-12-12 19:22:19.754 [main]    Common pages.Common - Drop Down Option Text: 41 GMT-03:00 America/Argentina/Buenos_Aires (GMT-3)
+19:22:19.767 [main] INFO  2022-12-12 19:22:19.767 [main]    Common pages.Common - Drop Down Option Text: 42 GMT-03:00 America/Montevideo (GMT-3)
+19:22:19.779 [main] INFO  2022-12-12 19:22:19.779 [main]    Common pages.Common - Drop Down Option Text: 43 GMT-03:00 America/Sao_Paulo (GMT-3)
+19:22:19.791 [main] INFO  2022-12-12 19:22:19.791 [main]    Common pages.Common - Drop Down Option Text: 44 GMT-03:00 America/Godthab (GMT-3)
+19:22:19.804 [main] INFO  2022-12-12 19:22:19.804 [main]    Common pages.Common - Drop Down Option Text: 45 GMT-02:00 America/Noronha (GMT-2)
+19:22:19.816 [main] INFO  2022-12-12 19:22:19.816 [main]    Common pages.Common - Drop Down Option Text: 46 GMT-02:00 Etc/GMT+2 (GMT-2)
+19:22:19.827 [main] INFO  2022-12-12 19:22:19.827 [main]    Common pages.Common - Drop Down Option Text: 47 GMT-01:00 Atlantic/Cape_Verde (GMT-1)
+19:22:19.840 [main] INFO  2022-12-12 19:22:19.840 [main]    Common pages.Common - Drop Down Option Text: 48 GMT-01:00 Atlantic/Azores (GMT-1)
+19:22:19.851 [main] INFO  2022-12-12 19:22:19.851 [main]    Common pages.Common - Drop Down Option Text: 49 GMT+00:00 UTC (UTC)
+19:22:19.862 [main] INFO  2022-12-12 19:22:19.862 [main]    Common pages.Common - Drop Down Option Text: 50 GMT+00:00 Atlantic/Canary (GMT)
+19:22:19.873 [main] INFO  2022-12-12 19:22:19.873 [main]    Common pages.Common - Drop Down Option Text: 51 GMT+00:00 Europe/London (GMT)
+19:22:19.884 [main] INFO  2022-12-12 19:22:19.884 [main]    Common pages.Common - Drop Down Option Text: 52 GMT+01:00 Africa/Algiers (GMT+1)
+19:22:19.894 [main] INFO  2022-12-12 19:22:19.894 [main]    Common pages.Common - Drop Down Option Text: 53 GMT+01:00 Africa/Casablanca (GMT+1)
+19:22:19.905 [main] INFO  2022-12-12 19:22:19.905 [main]    Common pages.Common - Drop Down Option Text: 54 GMT+01:00 Africa/Lagos (GMT+1)
+19:22:19.916 [main] INFO  2022-12-12 19:22:19.916 [main]    Common pages.Common - Drop Down Option Text: 55 GMT+01:00 Europe/Amsterdam (GMT+1)
+19:22:19.927 [main] INFO  2022-12-12 19:22:19.927 [main]    Common pages.Common - Drop Down Option Text: 56 GMT+01:00 Europe/Belgrade (GMT+1)
+19:22:19.938 [main] INFO  2022-12-12 19:22:19.938 [main]    Common pages.Common - Drop Down Option Text: 57 GMT+01:00 Europe/Brussels (GMT+1)
+19:22:19.950 [main] INFO  2022-12-12 19:22:19.950 [main]    Common pages.Common - Drop Down Option Text: 58 GMT+01:00 Europe/Madrid (GMT+1)
+19:22:19.961 [main] INFO  2022-12-12 19:22:19.961 [main]    Common pages.Common - Drop Down Option Text: 59 GMT+01:00 Europe/Oslo (GMT+1)
+19:22:19.971 [main] INFO  2022-12-12 19:22:19.971 [main]    Common pages.Common - Drop Down Option Text: 60 GMT+01:00 Europe/Sarajevo (GMT+1)
+19:22:19.982 [main] INFO  2022-12-12 19:22:19.982 [main]    Common pages.Common - Drop Down Option Text: 61 GMT+02:00 Africa/Cairo (GMT+2)
+19:22:19.993 [main] INFO  2022-12-12 19:22:19.993 [main]    Common pages.Common - Drop Down Option Text: 62 GMT+02:00 Africa/Harare (GMT+2)
+19:22:20.007 [main] INFO  2022-12-12 19:22:20.007 [main]    Common pages.Common - Drop Down Option Text: 63 GMT+02:00 Asia/Jerusalem (GMT+2)
+19:22:20.018 [main] INFO  2022-12-12 19:22:20.018 [main]    Common pages.Common - Drop Down Option Text: 64 GMT+02:00 Europe/Athens (GMT+2)
+19:22:20.029 [main] INFO  2022-12-12 19:22:20.029 [main]    Common pages.Common - Drop Down Option Text: 65 GMT+02:00 Europe/Bucharest (GMT+2)
+19:22:20.040 [main] INFO  2022-12-12 19:22:20.040 [main]    Common pages.Common - Drop Down Option Text: 66 GMT+02:00 Europe/Helsinki (GMT+2)
+19:22:20.051 [main] INFO  2022-12-12 19:22:20.051 [main]    Common pages.Common - Drop Down Option Text: 67 GMT+03:00 Africa/Nairobi (GMT+3)
+19:22:20.063 [main] INFO  2022-12-12 19:22:20.063 [main]    Common pages.Common - Drop Down Option Text: 68 GMT+03:00 Asia/Amman (GMT+3)
+19:22:20.074 [main] INFO  2022-12-12 19:22:20.074 [main]    Common pages.Common - Drop Down Option Text: 69 GMT+03:00 Asia/Baghdad (GMT+3)
+19:22:20.086 [main] INFO  2022-12-12 19:22:20.086 [main]    Common pages.Common - Drop Down Option Text: 70 GMT+03:00 Asia/Kuwait (GMT+3)
+19:22:20.116 [main] INFO  2022-12-12 19:22:20.116 [main]    Common pages.Common - Drop Down Option Text: 71 GMT+03:00 Asia/Qatar (GMT+3)
+19:22:20.136 [main] INFO  2022-12-12 19:22:20.136 [main]    Common pages.Common - Drop Down Option Text: 72 GMT+03:00 Europe/Moscow (GMT+3)
+19:22:20.150 [main] INFO  2022-12-12 19:22:20.150 [main]    Common pages.Common - Drop Down Option Text: 73 GMT+03:30 Asia/Tehran (GMT+3:30)
+19:22:20.162 [main] INFO  2022-12-12 19:22:20.162 [main]    Common pages.Common - Drop Down Option Text: 74 GMT+04:00 Asia/Baku (GMT+4)
+19:22:20.174 [main] INFO  2022-12-12 19:22:20.174 [main]    Common pages.Common - Drop Down Option Text: 75 GMT+04:00 Asia/Dubai (GMT+4)
+19:22:20.186 [main] INFO  2022-12-12 19:22:20.186 [main]    Common pages.Common - Drop Down Option Text: 76 GMT+04:30 Asia/Kabul (GMT+4:30)
+19:22:20.199 [main] INFO  2022-12-12 19:22:20.199 [main]    Common pages.Common - Drop Down Option Text: 77 GMT+05:00 Asia/Karachi (GMT+5)
+19:22:20.211 [main] INFO  2022-12-12 19:22:20.211 [main]    Common pages.Common - Drop Down Option Text: 78 GMT+05:00 Asia/Yekaterinburg (GMT+5)
+19:22:20.223 [main] INFO  2022-12-12 19:22:20.223 [main]    Common pages.Common - Drop Down Option Text: 79 GMT+05:30 Asia/Colombo (GMT+5:30)
+19:22:20.235 [main] INFO  2022-12-12 19:22:20.235 [main]    Common pages.Common - Drop Down Option Text: 80 GMT+05:30 Asia/Kolkata (GMT+5:30)
+19:22:20.247 [main] INFO  2022-12-12 19:22:20.247 [main]    Common pages.Common - Drop Down Option Text: 81 GMT+05:30 Asia/Calcutta (GMT+5:30)
+19:22:20.259 [main] INFO  2022-12-12 19:22:20.259 [main]    Common pages.Common - Drop Down Option Text: 82 GMT+05:45 Asia/Kathmandu (GMT+5:45)
+19:22:20.271 [main] INFO  2022-12-12 19:22:20.271 [main]    Common pages.Common - Drop Down Option Text: 83 GMT+06:00 Asia/Almaty (GMT+6)
+19:22:20.283 [main] INFO  2022-12-12 19:22:20.283 [main]    Common pages.Common - Drop Down Option Text: 84 GMT+06:00 Asia/Dhaka (GMT+6)
+19:22:20.303 [main] INFO  2022-12-12 19:22:20.303 [main]    Common pages.Common - Drop Down Option Text: 85 GMT+06:30 Asia/Rangoon (GMT+6:30)
+19:22:20.314 [main] INFO  2022-12-12 19:22:20.314 [main]    Common pages.Common - Drop Down Option Text: 86 GMT+07:00 Asia/Bangkok (GMT+7)
+19:22:20.324 [main] INFO  2022-12-12 19:22:20.324 [main]    Common pages.Common - Drop Down Option Text: 87 GMT+07:00 Asia/Krasnoyarsk (GMT+7)
+19:22:20.335 [main] INFO  2022-12-12 19:22:20.335 [main]    Common pages.Common - Drop Down Option Text: 88 GMT+08:00 Asia/Irkutsk (GMT+8)
+19:22:20.347 [main] INFO  2022-12-12 19:22:20.347 [main]    Common pages.Common - Drop Down Option Text: 89 GMT+08:00 Asia/Kuala_Lumpur (GMT+8)
+19:22:20.358 [main] INFO  2022-12-12 19:22:20.358 [main]    Common pages.Common - Drop Down Option Text: 90 GMT+08:00 Asia/Shanghai (GMT+8)
+19:22:20.368 [main] INFO  2022-12-12 19:22:20.368 [main]    Common pages.Common - Drop Down Option Text: 91 GMT+08:00 Asia/Taipei (GMT+8)
+19:22:20.380 [main] INFO  2022-12-12 19:22:20.380 [main]    Common pages.Common - Drop Down Option Text: 92 GMT+08:00 Australia/Perth (GMT+8)
+19:22:20.391 [main] INFO  2022-12-12 19:22:20.391 [main]    Common pages.Common - Drop Down Option Text: 93 GMT+09:00 Asia/Seoul (GMT+9)
+19:22:20.402 [main] INFO  2022-12-12 19:22:20.402 [main]    Common pages.Common - Drop Down Option Text: 94 GMT+09:00 Asia/Tokyo (GMT+9)
+19:22:20.413 [main] INFO  2022-12-12 19:22:20.413 [main]    Common pages.Common - Drop Down Option Text: 95 GMT+09:00 Asia/Yakutsk (GMT+9)
+19:22:20.424 [main] INFO  2022-12-12 19:22:20.424 [main]    Common pages.Common - Drop Down Option Text: 96 GMT+09:30 Australia/Darwin (GMT+9:30)
+19:22:20.435 [main] INFO  2022-12-12 19:22:20.435 [main]    Common pages.Common - Drop Down Option Text: 97 GMT+10:00 Asia/Vladivostok (GMT+10)
+19:22:20.447 [main] INFO  2022-12-12 19:22:20.447 [main]    Common pages.Common - Drop Down Option Text: 98 GMT+10:00 Australia/Brisbane (GMT+10)
+19:22:20.458 [main] INFO  2022-12-12 19:22:20.458 [main]    Common pages.Common - Drop Down Option Text: 99 GMT+10:00 Pacific/Guam (GMT+10)
+19:22:20.469 [main] INFO  2022-12-12 19:22:20.469 [main]    Common pages.Common - Drop Down Option Text: 100 GMT+10:30 Australia/Adelaide (GMT+10:30)
+19:22:20.480 [main] INFO  2022-12-12 19:22:20.480 [main]    Common pages.Common - Drop Down Option Text: 101 GMT+11:00 Australia/Canberra (GMT+11)
+19:22:20.491 [main] INFO  2022-12-12 19:22:20.491 [main]    Common pages.Common - Drop Down Option Text: 102 GMT+11:00 Australia/Hobart (GMT+11)
+19:22:20.504 [main] INFO  2022-12-12 19:22:20.504 [main]    Common pages.Common - Drop Down Option Text: 103 GMT+11:00 Australia/Sydney (GMT+11)
+19:22:20.515 [main] INFO  2022-12-12 19:22:20.515 [main]    Common pages.Common - Drop Down Option Text: 104 GMT+11:00 Asia/Magadan (GMT+11)
+19:22:20.526 [main] INFO  2022-12-12 19:22:20.526 [main]    Common pages.Common - Drop Down Option Text: 105 GMT+13:00 Pacific/Auckland (GMT+13)
+19:22:20.537 [main] INFO  2022-12-12 19:22:20.537 [main]    Common pages.Common - Drop Down Option Text: 106 GMT+13:00 Pacific/Fiji (GMT+13)
+19:22:20.549 [main] INFO  2022-12-12 19:22:20.549 [main]    Common pages.Common - Drop Down Option Text: 107 GMT+13:00 Pacific/Tongatapu (GMT+13)
+19:22:20.645 [main] INFO  2022-12-12 19:22:20.645 [main]    Common pages.Common - Drop Down Selected Randomly: GMT+01:00 Europe/Sarajevo (GMT+1)
+19:22:20.790 [main] INFO  2022-12-12 19:22:20.790 [main]    Common pages.Common - Available Dates Count: 7
+19:22:20.807 [main] INFO  2022-12-12 19:22:20.807 [main]    Common pages.Common - Available Dates Text: 0 15
+19:22:20.825 [main] INFO  2022-12-12 19:22:20.825 [main]    Common pages.Common - Available Dates Text: 1 16
+19:22:20.845 [main] INFO  2022-12-12 19:22:20.845 [main]    Common pages.Common - Available Dates Text: 2 21
+19:22:20.859 [main] INFO  2022-12-12 19:22:20.859 [main]    Common pages.Common - Available Dates Text: 3 26
+19:22:20.875 [main] INFO  2022-12-12 19:22:20.875 [main]    Common pages.Common - Available Dates Text: 4 27
+19:22:20.889 [main] INFO  2022-12-12 19:22:20.889 [main]    Common pages.Common - Available Dates Text: 5 29
+19:22:20.904 [main] INFO  2022-12-12 19:22:20.904 [main]    Common pages.Common - Available Dates Text: 6 30
+19:22:20.917 [main] INFO  2022-12-12 19:22:20.917 [main]    Common pages.Common - Date Selected Randomly: 21
+19:22:21.416 [main] INFO  2022-12-12 19:22:21.416 [main]    Common pages.Common - Time Slots Count: 17
+19:22:21.430 [main] INFO  2022-12-12 19:22:21.430 [main]    Common pages.Common - Time Slot Text: 0 03:30 AM
+19:22:21.444 [main] INFO  2022-12-12 19:22:21.444 [main]    Common pages.Common - Time Slot Text: 1 04:00 AM
+19:22:21.457 [main] INFO  2022-12-12 19:22:21.457 [main]    Common pages.Common - Time Slot Text: 2 04:30 AM
+19:22:21.468 [main] INFO  2022-12-12 19:22:21.468 [main]    Common pages.Common - Time Slot Text: 3 05:00 AM
+19:22:21.480 [main] INFO  2022-12-12 19:22:21.480 [main]    Common pages.Common - Time Slot Text: 4 05:30 AM
+19:22:21.492 [main] INFO  2022-12-12 19:22:21.492 [main]    Common pages.Common - Time Slot Text: 5 06:00 AM
+19:22:21.503 [main] INFO  2022-12-12 19:22:21.503 [main]    Common pages.Common - Time Slot Text: 6 06:30 AM
+19:22:21.514 [main] INFO  2022-12-12 19:22:21.514 [main]    Common pages.Common - Time Slot Text: 7 07:00 AM
+19:22:21.527 [main] INFO  2022-12-12 19:22:21.527 [main]    Common pages.Common - Time Slot Text: 8 07:30 AM
+19:22:21.543 [main] INFO  2022-12-12 19:22:21.543 [main]    Common pages.Common - Time Slot Text: 9 08:00 AM
+19:22:21.554 [main] INFO  2022-12-12 19:22:21.554 [main]    Common pages.Common - Time Slot Text: 10 08:30 AM
+19:22:21.565 [main] INFO  2022-12-12 19:22:21.565 [main]    Common pages.Common - Time Slot Text: 11 09:00 AM
+19:22:21.577 [main] INFO  2022-12-12 19:22:21.577 [main]    Common pages.Common - Time Slot Text: 12 09:30 AM
+19:22:21.588 [main] INFO  2022-12-12 19:22:21.588 [main]    Common pages.Common - Time Slot Text: 13 10:00 AM
+19:22:21.600 [main] INFO  2022-12-12 19:22:21.600 [main]    Common pages.Common - Time Slot Text: 14 10:30 AM
+19:22:21.611 [main] INFO  2022-12-12 19:22:21.611 [main]    Common pages.Common - Time Slot Text: 15 11:00 AM
+19:22:21.622 [main] INFO  2022-12-12 19:22:21.622 [main]    Common pages.Common - Time Slot Text: 16 11:30 AM
+19:22:21.632 [main] INFO  2022-12-12 19:22:21.632 [main]    Common pages.Common - Time Slot Selected Randomly: 05:30 AM
+19:22:21.728 [main] INFO  2022-12-12 19:22:21.728 [main]    Common pages.Common - Clicked Continue Button in Appointment Page
+19:22:21.833 [main] INFO  2022-12-12 19:22:21.833 [main]    Common pages.Common - First Name: TestFirst
+19:22:21.957 [main] INFO  2022-12-12 19:22:21.957 [main]    Common pages.Common - Last Name: TestLast
+19:22:22.034 [main] INFO  2022-12-12 19:22:22.034 [main]    Common pages.Common - PhoneNumber: 1234567890
+19:22:22.096 [main] INFO  2022-12-12 19:22:22.096 [main]    Common pages.Common - Email: test@test.com
+19:22:22.171 [main] INFO  2022-12-12 19:22:22.171 [main]    Common pages.Common - AdditionalInfo: TestBooking
+19:22:22.248 [main] INFO  2022-12-12 19:22:22.248 [main]    Common pages.Common - Clicked ScheduleMeeting Button in Appointment Page
+19:22:23.989 [main] INFO  2022-12-12 19:22:23.989 [main]    Common pages.Common - BookedTimeZone: GMT+01:00 Europe/Sarajevo (GMT+1)
+19:22:24.012 [main] INFO  2022-12-12 19:22:24.012 [main]    Common pages.Common - BookedDate: Wed, Dec 21, 2022 [ 05:30 AM - 06:00 AM ]
+19:22:24.033 [main] INFO  2022-12-12 19:22:24.033 [main]    Common pages.Common - BookedTime: [ 05:30 AM - 06:00 AM ]
+19:22:24.037 [main] INFO  2022-12-12 19:22:24.037 [main]    Common pages.Common - Date is as per the booking made.
+19:22:24.037 [main] INFO  2022-12-12 19:22:24.037 [main]    Common pages.Common - TimeSlot is as per the booking made.
+19:22:25.090 [main] INFO  2022-12-12 19:22:25.090 [main]    Common pages.Common - Loading the Page: https://app.gohighlevel.com/v2/location/TzVEpIbhbYTTxWBCiPIR/calendars/appointments
+19:22:37.881 [main] INFO  2022-12-12 19:22:37.881 [main]    Common pages.Common - TestName: TestFirst TestLast
+19:22:37.910 [main] INFO  2022-12-12 19:22:37.910 [main]    Common pages.Common - RequestedTime: 21 Dec 2022, 10:00 am
+19:22:37.936 [main] INFO  2022-12-12 19:22:37.936 [main]    Common pages.Common - AppointmentNotes: TestBooking
+19:22:37.937 [main] INFO  2022-12-12 19:22:37.937 [main]    Common pages.Common - Parsed TimeZone: Europe/Sarajevo
+19:22:37.976 [main] INFO  2022-12-12 19:22:37.976 [main]    Common pages.Common - Current TimeZone : Europe/Sarajevo
+19:22:37.977 [main] INFO  2022-12-12 19:22:37.977 [main]    Common pages.Common - Date (Europe/Sarajevo) : 2022-12-21T05:30+01:00[Europe/Sarajevo]
+19:22:37.978 [main] INFO  2022-12-12 19:22:37.978 [main]    Common pages.Common - Conversion TimeZone : Asia/Kolkata
+19:22:37.978 [main] INFO  2022-12-12 19:22:37.978 [main]    Common pages.Common - Date (IST) : 2022-12-21T10:00+05:30[Asia/Kolkata]
+19:22:37.978 [main] INFO  2022-12-12 19:22:37.978 [main]    Common pages.Common - ---DateTimeFormatter---
+19:22:37.979 [main] INFO  2022-12-12 19:22:37.979 [main]    Common pages.Common - Date (Europe/Sarajevo) : 21 Dec 2022, 05:30 AM
+19:22:37.979 [main] INFO  2022-12-12 19:22:37.979 [main]    Common pages.Common - Date (IST) : 21 Dec 2022, 10:00 AM
+19:22:38.257 [main] INFO  2022-12-12 19:22:38.257 [main]    Common pages.Common - Closed the Chrome Browser
+2022-12-12 19:22:38,258 pool-1-thread-1 DEBUG Stopping LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@5629510]
+2022-12-12 19:22:38,259 pool-1-thread-1 DEBUG Stopping LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@5629510]...
+2022-12-12 19:22:38,261 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false
+2022-12-12 19:22:38,261 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false, all resources released: true
+2022-12-12 19:22:38,261 pool-1-thread-1 DEBUG Appender Console stopped with status true
+2022-12-12 19:22:38,262 pool-1-thread-1 DEBUG Stopped XmlConfiguration[location=/Users/keerthivasanv/Downloads/gohighlevel/target/classes/log4j2.xml] OK
+2022-12-12 19:22:38,262 pool-1-thread-1 DEBUG Stopped LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@5629510] with status true
+Disconnected from the target VM, address: '127.0.0.1:57363', transport: 'socket'
+
+Process finished with exit code 0
